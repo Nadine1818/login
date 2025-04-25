@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>SignUp</title>
+     
+</head>
+<body>
+    <div class="container text-center my-5 w-50 p-5 ">
+        <h1 class="title">Smart Login System</h1>
+       <div class="form mt-3">
+        <div class="mb-3 ">
+            <input id= "namesignup" type="email" class="form-control bg-transparent text-white"  placeholder="Enter your name" value="">
+          </div>
+        <div class="mb-3 ">
+            <input id="emailsignup" type="email" class="form-control bg-transparent text-white"  placeholder="Enter your email" value="">
+          </div>
+          <div class="mb-3 row">
+            <div class="mb-3">
+              <input id="passsignup" type="password" class="form-control bg-transparent text-white"  placeholder="Enter your password" value="">
+            </div>
+          </div>
+          <div id="alertemailsignup" class="text-danger mb-3 d-none" role="alert">
+           Invalid Email!
+          </div>
+          <div id="alertemptysignup" class="text-danger mb-3 d-none" role="alert">
+            All inputs are required!
+           </div>
+           <div id="alertsuccesssignup" class="text-success mb-3 d-none" role="alert">
+            Successfully registered
+           </div>
+           <div id="alertemailexistssignup" class="text-danger mb-3 d-none" role="alert">
+            Email already exists!
+           </div>
+          <div class="d-grid gap-2 mb-2">
+            <button id="btnsignup" class="btn btn-outline-info" type="button" onclick="signUp()">SignUp</button>
+          </div>
+       </div>
+       <span class=" text-white">You have an account?</span>
+       <a href="login.html" class="text-white text-decoration-none ">Signin</a>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

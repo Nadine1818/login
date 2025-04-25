@@ -1,0 +1,27 @@
+body{
+    background-color: #24353f;
+}
+
+.title {
+    color: #17a2b8;
+}
+.btn{
+    color: #17a2b8;
+}
+
+input::placeholder{
+   color: #e0d8d8 !important;
+}
+
+input{
+    background: transparent !important;
+}
+
+.container{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+a:hover{
+    text-decoration: underline !important;
+}
+
